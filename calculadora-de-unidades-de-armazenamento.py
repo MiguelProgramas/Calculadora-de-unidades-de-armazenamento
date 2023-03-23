@@ -4,7 +4,7 @@ def converterStringParaFloat(value):
     print('Valor convertido de str para float')
     return float(value)
 
-#Bit-byte/Byte-bit
+#Bit-byte
 
 def bitParaByte(valorASerConvertido):
     print('Valor convertido de bit para byte')
@@ -18,7 +18,7 @@ def byteParaBit(valorASerConvertido):
     print(bitsCalculado)
     return bitsCalculado
 
-#Byte-Kilobyte/Kilobyte-Byte
+#Byte-Kilobyte
 
 def byteParaKilobyte(bytesCalculado):
     print('Valor convertido de byte para kilobyte')
@@ -46,6 +46,8 @@ def MegabyteParaKilobyte(MegasCalculado):
     print(kilobytescalculado2)
     return kilobytescalculado2
 
+#Megabyte-Gigabyte
+
 def MegabyteParaGigabyte(MegasCalculado):
     print('Valor convertido de megabyte para gigabyte')
     GigasCalculado = MegasCalculado / valorComum
@@ -58,6 +60,8 @@ def GigabyteParaMegabyte(GigasCalculado):
     print(MegasCalculado2)
     return MegasCalculado2
 
+#Gigabyte-Terabyte
+
 def GigabyteParaTerabyte(GigasCalculado):
     print('Valor convertido de gigabyte para terabyte')
     TerasCalculado = GigasCalculado / valorComum
@@ -69,6 +73,8 @@ def TerabyteParaGigabyte(TerasCalculado):
     GigasCalculado2 = TerasCalculado * valorComum
     print(GigasCalculado2)
     return GigasCalculado2
+
+#Terabyte-Pentabyte
 
 def TerabyteParaPentabyte(TerasCalculado):
     print('Valor convertido de terabyte para pentabyte')
