@@ -88,20 +88,7 @@ def PentabyteParaTerabyte(PentasCalculado):
     print(TerasCalculado2)
     return TerasCalculado2
 
-print('Insira o valor a ser convertido')    
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-bitParaByte(entradaDoTecladoValorASerConvertido)
-byteParaBit(entradaDoTecladoValorASerConvertido)
-byteParaKilobyte(entradaDoTecladoValorASerConvertido)
-KilobyteParaByte(entradaDoTecladoValorASerConvertido)
-KilobyteParaMegabyte(entradaDoTecladoValorASerConvertido)
-MegabyteParaKilobyte(entradaDoTecladoValorASerConvertido)
-MegabyteParaGigabyte(entradaDoTecladoValorASerConvertido)
-GigabyteParaMegabyte(entradaDoTecladoValorASerConvertido)
-GigabyteParaTerabyte(entradaDoTecladoValorASerConvertido)
-TerabyteParaGigabyte(entradaDoTecladoValorASerConvertido)
-TerabyteParaPentabyte(entradaDoTecladoValorASerConvertido)
-PentabyteParaTerabyte(entradaDoTecladoValorASerConvertido)
+
 
 
 
